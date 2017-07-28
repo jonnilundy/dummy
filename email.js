@@ -1,11 +1,11 @@
 WeDeploy
-		.url('email-boilerplateemail.wedeploy.io/emails')
+		.email('email-boilerplateemail.wedeploy.io')
 		.auth('0000-0000-0000-0000-0000')
-		.form('from', 'from@mail.com')
-		.form('to', 'to@mail.com')
-		.form('subject', 'Meeting RSVP')
-		.form('message', 'Can you come on Thursday?')
-		.post()
+		.from('from@mail.com')
+		.to('to@mail.com')
+		.subject('Meeting RSVP')
+		.message('Can you come on Thursday?')
+		.send()
 		.then(function(response) {
 			console.log(response);
  		})
