@@ -1,6 +1,7 @@
 WeDeploy
-    .url('email-boilerplateemail.wedeploy.io/emails/9209385710/status')
-    .get()
+    .email('email-boilerplateemail.wedeploy.io')
+    .auth('0000-0000-0000-0000-0000')
+    .status('9209385710')
     .then(function(response) {
         console.log(response);
     })
