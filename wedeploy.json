@@ -1,3 +1,4 @@
 {
-	"id": "myservice"
+	"id": "myservice",
+	"customDomains": ["myservice.com", "www.myservice.com"]
 }
