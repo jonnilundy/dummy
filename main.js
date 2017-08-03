@@ -1,5 +1,5 @@
 WeDeploy
-	.data('data.boilerplate-data.wedeploy.io')
+	.data('data-boilerplate.data.wedeploy.io')
  	.orderBy('id', 'desc')
  	.limit(5)
  	.get('tasks')
