@@ -1,4 +1,4 @@
 {
 	"id": "myservice",
-	"customDomains": ["myservice.com", "www.myservice.com"]
+	"type": "wedeploy/hosting:latest"
 }
